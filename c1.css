@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #c6c3c3c9;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(237, 228, 228, 0.1);
+    padding: 28px;
+    
+}
+
+#reset{
+    background-color: #f92819;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#generate{
+    background-color: #1ccb21;
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.input{
+    display: grid;
+    grid-template-columns: .8fr 1fr;
+    grid-template-rows: .8fr 1fr;
+    gap: 15px;
+    margin-top: 20px; 
+    font-size: 18px;
+}
+
+.input label{
+    padding-left:6px;
+    padding-top:10px;
+}
+
+.input input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+
+
